@@ -14,3 +14,6 @@ I will add soon a video and a detailed description
 - my setup: "Raspberry Zero W" connected over the GPIO serial pins with a "atmega32u4 pro micro"
 - build and upload the firmware
 - build serialusb
+
+## Frontend application soon
+i started a Python flask application where you can select and map the images you want to play, which will write the configuration for this plugin
