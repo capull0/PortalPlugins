@@ -1,0 +1,15 @@
+---
+
+path: /home/pi/skylanders_images
+
+mapping:
+  00-00-00-01: Aurora_Sensei_Licht
+  00-00-00-02: Barbella_Sensei_Erde
+  00-00-00-03: Chopscotch_Sensei_Gespenster
+  00-00-00-04: Dr_Krankcase_Sensei_Technologie
+  00-00-00-05: Gespenster_Kristall
+  00-00-00-06: Legendary_Grim_Creeper_Gespenster
+  00-00-00-07: Licht_Kristall
+  00-00-00-08: Mysticat_Sensei_Magie
+  00-00-00-09: Tri-Tip_Sensei_Erde
+  00-00-00-10: Wolfgang_Sensei_Gespenster
