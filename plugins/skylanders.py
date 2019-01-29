@@ -1,7 +1,9 @@
 import yaml
 import os
+import sys
+#from hexdump import hexdump
 
-config_path = 'skylanders.yaml'
+config_path = sys.path[0] + '/skylanders.yaml'
 
 images = {}
 config = {}
@@ -63,9 +65,10 @@ def receive_data(ddata):
                 for i in ddata[11:27]:
                     block_data.append(ord(i))
                 write_block(sid, block, block_data)
-            #data[9] = chr(0)
-            #data[10] = chr(0)
-    
+                new_data = data[0:9]
+                new_data[8] = 'S'
+                return ''.join(new_data)
+
     return ''.join(data)
 
 
